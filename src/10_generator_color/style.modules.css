@@ -1,0 +1,11 @@
+.colorDisplay{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid hsl(0, 0%, 80%);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: 0.25s ease;
+}
