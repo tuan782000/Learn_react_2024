@@ -28,6 +28,7 @@ const TodoList = () => {
   const moveTaskUp = (index) => {
     if(index > 0) {
         const updatedTasks = [...tasks];
+        // [a, b] = [b , a], lý do b - 1 để hoán đổi phần index hiện tại với phần tử nằm trước đó
         [updatedTasks[index], updatedTasks[index - 1]] = [updatedTasks[index - 1], updatedTasks[index]]
         setTask(updatedTasks)
     }
@@ -36,6 +37,7 @@ const TodoList = () => {
   const moveTaskDown = (index) => {
     if(index < tasks.length - 1) {
         const updatedTasks = [...tasks];
+        // [a, b] = [b , a], lý do b + 1 để hoán đổi phần index hiện tại với phần tử nằm sau đó
         [updatedTasks[index], updatedTasks[index + 1]] = [updatedTasks[index + 1], updatedTasks[index]]
         setTask(updatedTasks)
     }
