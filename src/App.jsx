@@ -47,7 +47,10 @@
 // import MyComponents from "./13_update_arrays/MyComponents"
 
 // Bài 14
-import MyComponents from "./14_update_array_in_object/MyComponents"
+// import MyComponents from "./14_update_array_in_object/MyComponents"
+
+// Bài 15
+import TodoList from "./15_Todo_List/TodoList"
 
 function App() {
 
@@ -138,7 +141,10 @@ function App() {
       {/* <MyComponents /> */}
 
       {/* Bài 14 */}
-      <MyComponents />
+      {/* <MyComponents /> */}
+
+      {/* Bài 15 */}
+      <TodoList />
     </>
   )
 }
