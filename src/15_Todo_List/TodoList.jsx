@@ -21,6 +21,7 @@ const TodoList = () => {
   const deleteTask = (index) => {
     // lọc ra những thằng i nào không trùng với index truyền vào hành deleteTask
     const updatedTasks = tasks.filter((_, i) => i !== index)
+    // updatedTasks này là mảng
     setTask(updatedTasks) 
     // cập nhật lại những cái danh sách.
   }
@@ -30,7 +31,7 @@ const TodoList = () => {
         const updatedTasks = [...tasks];
         // [a, b] = [b , a], lý do b - 1 để hoán đổi phần index hiện tại với phần tử nằm trước đó
         [updatedTasks[index], updatedTasks[index - 1]] = [updatedTasks[index - 1], updatedTasks[index]]
-        setTask(updatedTasks)
+        setTask(updatedTasks);
     }
   }
 
@@ -39,7 +40,7 @@ const TodoList = () => {
         const updatedTasks = [...tasks];
         // [a, b] = [b , a], lý do b + 1 để hoán đổi phần index hiện tại với phần tử nằm sau đó
         [updatedTasks[index], updatedTasks[index + 1]] = [updatedTasks[index + 1], updatedTasks[index]]
-        setTask(updatedTasks)
+        setTask(updatedTasks);
     }
   }
 

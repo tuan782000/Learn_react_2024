@@ -8,6 +8,9 @@ React tập trung xây dựng trang web bằng nhiều components
 Mỗi components là 1 thành phần độc lập cấu thành nên giao diện.
 
 Việc chia components giúp dễ dàng tái sử dụng nó ở nhiều nơi khác nhau.
+
+Node.js là một backend JavaScript runtime environment nó thực thi mã JavaScript.
+
 ```
 
 ```txt

@@ -33,7 +33,7 @@ const List = () => {
         </li>
     ));
 
-    const listItemFilter = lowCalFruits.map((lowCalFruit) => (
+    const listItemFilterLow = lowCalFruits.map((lowCalFruit) => (
         <li key={lowCalFruit.id}>
             {lowCalFruit.name}&nbsp; <b>{lowCalFruit.calories}</b>
         </li>
@@ -59,9 +59,9 @@ const List = () => {
 
             <p>Filter Array Object has calories under 100</p>
             <ul>
-                {listItemFilter}
+                {listItemFilterLow}
             </ul>
-            
+
             <p>Filter Array Object has calories over 100</p>
             <ul>
                 {listItemFilterHigh}

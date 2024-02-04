@@ -3,6 +3,7 @@
 // import Footer from "./01_React_tutorial_beginer/Footer"
 // import Header from "./01_React_tutorial_beginer/Header"
 
+import MyComponen from "./19_useRef/MyComponen"
 
 
 
@@ -50,7 +51,21 @@
 // import MyComponents from "./14_update_array_in_object/MyComponents"
 
 // Bài 15
-import TodoList from "./15_Todo_List/TodoList"
+// import TodoList from "./15_Todo_List/TodoList"
+
+// Bài 16
+// import MyComponent from "./16_useEffect/MyComponent"
+
+// Bài 16.1
+// import Example from "./16_useEffect/Example"
+
+// Bài 17
+// import DigitalClock from "./17_Digital_Clock/DigitalClock"
+
+// Bài 18
+// import MyComponentA from "./18_useContext/MyComponentA"
+
+// Bài 19
 
 function App() {
 
@@ -144,7 +159,20 @@ function App() {
       {/* <MyComponents /> */}
 
       {/* Bài 15 */}
-      <TodoList />
+      {/* <TodoList /> */}
+
+      {/* Bài 16 */}
+      {/* <MyComponent /> */}
+
+      {/* <Example /> */}
+
+      {/* Bài 17 */}
+      {/* <DigitalClock /> */}
+
+      {/* Bài 18 */}
+      {/* <MyComponentA /> */}
+
+      <MyComponen />
     </>
   )
 }
