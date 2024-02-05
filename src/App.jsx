@@ -3,7 +3,7 @@
 // import Footer from "./01_React_tutorial_beginer/Footer"
 // import Header from "./01_React_tutorial_beginer/Header"
 
-import MyComponen from "./19_useRef/MyComponen"
+
 
 
 
@@ -66,6 +66,11 @@ import MyComponen from "./19_useRef/MyComponen"
 // import MyComponentA from "./18_useContext/MyComponentA"
 
 // Bài 19
+// import MyComponen from "./19_useRef/MyComponen"
+
+// Lesson 20
+import Stopwatch from "./20_stopWatch/Stopwatch"
+
 
 function App() {
 
@@ -172,7 +177,10 @@ function App() {
       {/* Bài 18 */}
       {/* <MyComponentA /> */}
 
-      <MyComponen />
+      {/* <MyComponen /> */}
+
+      {/* Lesson 20 */}
+      <Stopwatch />
     </>
   )
 }
